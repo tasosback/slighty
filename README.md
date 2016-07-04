@@ -4,6 +4,15 @@ A lightweight, compact an simple to use JQuery slider
 
 ## Getting Started
 
+Include
+
+```
+<link href="css/slighty.css" rel="stylesheet">
+<script src="js/slighty.js"></script>
+```
+
+HTML Marckup
+
 ```
 <div id="slighter" class="slighty-container">
     <ul class="slighty">
@@ -13,9 +22,17 @@ A lightweight, compact an simple to use JQuery slider
     </ul>
     <span class="slighty-next">Next</span>
     <span class="slighty-prev">Prev</span>
-    <ul id="count-pills">
-    </ul>
+    <ul id="count-pills"></ul>
 </div>
+```
+
+Javascript
+
+```
+$("#slighter").slighty({
+    "auto":true,
+    "effect":'fade'
+});
 ```
 
 ### Requires
