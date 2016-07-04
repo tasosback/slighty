@@ -1,1 +1,1 @@
-# slighty
+# Slighty

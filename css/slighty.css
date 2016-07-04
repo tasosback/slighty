@@ -1,0 +1,80 @@
+.slighty-container{
+    position: relative;
+}
+
+.slighty-container .nav{
+    color: #fff;
+    font-size: 16px;
+}
+
+.slighty-next{
+    position: absolute;
+    top:50%;
+    right:10px;
+    cursor: pointer;
+}
+
+.slighty-prev{
+    position: absolute;
+    top:50%;
+    left:10px;
+    cursor: pointer;
+}
+
+.slighty {
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    position:relative;
+    list-style: none outside none;
+    padding:0;
+    margin:0;
+}
+.slighty li {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display:none;
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slighty li img{
+    width: 100%;
+}
+
+.slighty li:first-child {
+    display:block;
+}
+#counter {
+    text-align:right;
+    font-size:16px;
+    width:500px;
+}
+
+#count-pills{
+    list-style: none outside none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    padding-left: 0;
+}
+
+#count-pills li{
+    display: inline-block;
+    margin-right: 3px;
+}
+
+#count-pills i{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    display: block;
+}
+
+#count-pills li.active i{
+    background-color: #fff;
+}
