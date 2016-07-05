@@ -1,6 +1,6 @@
 # Slighty
 
-A lightweight, compact an simple to use JQuery slider
+A lightweight, compact and simple to use JQuery slider
 
 ## Getting Started
 
